@@ -1,0 +1,264 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar {
+    background-color: transparent;    
+}
+
+.port {
+    margin-top: 30px;
+}
+
+.port h1 {
+    margin: 15px;
+    font-size: 30px;
+}
+
+.brand {
+    font-weight: 600;
+    font-size: 20px;
+    color: #232b2b;
+    margin-left: 10px;
+}
+
+#navbartrans {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../images/raleigh3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+
+}
+
+.med-port-img {
+    margin-top: 5px;
+    width: 90px;
+    height: 60px;
+}
+
+.lrg-port-img {
+    margin-top: 5px;
+    width: 200px;
+    height: 120px;
+}
+
+#splash {
+    position: relative;
+}
+
+#main-title { 
+    position: absolute;
+    bottom: 15%;
+}
+
+#main-title a {
+    margin-top: 50px;
+    color:rgb(78, 78, 78);
+}
+
+#splash h1 {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #232b2b;
+}
+
+#splash h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #232b2b;
+}
+
+
+#timeline {
+    background-color: #fff;
+}
+
+#timeline h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#timeline p {
+    margin-top: 20px;
+}
+
+#portfolio {
+    background-color: #e2d9cdbd;
+}
+
+.port-wrap img {
+    float:left;
+    margin-right: 8px;
+}
+
+.port-contents {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.port-item {
+    background-color: #fff;
+}
+
+#contact {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width : 364px) {
+    /* Styles */
+
+    .brand {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #splash {
+        position: relative;
+    }
+
+    
+    #main-title { 
+        position: absolute;
+        bottom: 370px;
+    
+    }
+
+    #main-title a {
+        margin-top: 10px;
+        font-size: 12px;
+        color:gray;
+    }
+    
+    #splash h1 {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #232b2b;
+    }
+
+    #splash h2 {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width : 480px){
+    /* Styles */
+
+    .brand {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #splash {
+        position: relative;
+    }
+
+
+    #main-title { 
+        position: absolute;
+        bottom: 75%;
+    
+    }
+
+    #main-title a {
+        margin-top: 5px;
+        font-size: 12px;
+        color:gray;
+    }
+    
+    #splash h1 {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #232b2b;
+    }
+
+    #splash h2 {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #232b2b;
+        
+    }
+
+
+}
+
+
+
+@media all and (min-width : 481px) and  (max-width : 620px) {
+
+    .brand {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #splash {
+        position: relative;
+    }
+
+
+    #main-title { 
+        position: absolute;
+        bottom: 56%;    
+    }
+
+    #main-title a {
+        margin-top: 5px;
+        font-size: 12px;
+        color:gray;
+    }
+    
+    #splash h1 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #232b2b;
+    }
+
+    #splash h2 {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #232b2b;
+        
+    }
+
+}
+
+
+@media all and (min-width : 621px) and  (max-width : 840px) {
+
+    .brand {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #splash {
+        position: relative;
+    }
+
+
+    #main-title { 
+        position: absolute;
+        bottom: 40%;    
+    }
+
+    #main-title a {
+        margin-top: 5px;
+        font-size: 12px;
+        color:gray;
+    }
+
+
+}

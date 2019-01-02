@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libby Duggan</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="has-navbar-fixed-top">
+  
+    <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item brand" href="index.html">
+            Libby Duggan
+            </a>
+            <div class="navbar-burger burger" data-target="navbartrans">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+
+        <div id="navbartrans" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+
+            <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field is-grouped">
+                <p class="control">
+                    <a href="">
+                    <span class="icon is-medium">
+                        <i class="fab fa-lg fa-github"></i>
+                    </span>
+                    </a>
+                </p>
+                <p class="control"id="contact">
+                    <a>
+                    <span class="icon is-medium">
+                        <i class="fas fa-lg fa-envelope"></i>
+                    </span>
+                    </a>
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+            <p class="modal-card-title">Drop me a line</p>
+            <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <div class="container" id="contact">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Your name">
+                        </div>
+                        </div>
+                                
+                        <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Email address">
+                            <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                        </div>
+                        <!-- <p class="help is-danger">This email is invalid</p> -->
+                        </div>
+                        <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Your message here."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+            <button class="button" id ="close">Cancel</button>
+            </footer>
+        </div>
+      </div>
+
+  <section class="hero is-fullheight center">
+    <div class="hero-body center" id="splash">
+        <div  id="main-title">
+            <h1 class="center title">Hi, I'm Libby</h1>
+            <h2 class="center subtitle">I'm a full stack web developer based in Raleigh, NC.</h2>
+
+            <a href="portfolio.html" class="center">Cool, but I really just want to see your code.</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="hero is-fullheight" id="timeline">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="center">About Me</h1>
+                <div class="center">
+                    <figure class="image is-128x128 center">
+                        <img class="is-rounded center" src="https://bulma.io/images/placeholders/128x128.png">
+                    </figure>
+                </div>
+                <p class="center">Thanks for stopping by!  I'm currently enrolled in the UNC Coding Bootcamp, honing my skills as a full stack web developer.  On this site, you'll find my both my work for the Bootcamp material (MERN stack, Node.js, Express, C#/ASP.net) as well as personal projects (primarily Python, Flask, and Django).  
+                <br><br> Feel free to poke around, check out my portfolio, or just say hi! </p>
+            </div>
+        </div>
+  </section>
+
+
+
+  <section class="hero is-fullheight" id="portfolio">
+        <div class="hero-body">
+            <div class="container port-contents">               
+                <div class="tile is-ancestor">
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification port-item">
+                                <div class="content">
+                                <p class="title">Blurb about work/projects</p>
+                                <p class="subtitle">Blah, blah, blah.  Links to github etc</p>
+                                <div class="content">
+                                    <p>
+                                    </p>
+                                </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="tile is-vertical is-8">
+                          <div class="tile">
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification port-item">
+                                    <p class="title">Current project</p>
+                                    <p class="subtitle">Website Redesign</p>
+                                    <div class="center">
+                                        <figure class="lrg-port-img">
+                                        <img src="Assets/images/website.PNG">
+                                        </figure>
+                                    </div>
+                                    <p class="center">
+                                        A fully responsive, mobile-friendly website with portfolio, contact, and personal information.  This project uses Bulma, JQuery, HTML, and CSS.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="tile is-parent is-vertical">
+                              <article class="tile is-child notification port-item">
+                                <p class="title">Last project</p>
+                                <p class="subtitle">RPS Multiplayer</p>
+                                <div class="port-wrap">                      
+                                        <p> <img class="med-port-img" src="Assets/images/RPS.png">       
+                                        A two-player rock, paper, scissors game with chat functionality that uses Google Firebase's real-time database to track score, user, and chat data.
+                                        </p>
+                                </div>
+                              </article>
+                              <article class="tile is-child notification port-item">
+                                <p class="title">Next project</p>
+                                <p class="subtitle">LIRI Bot</p>
+                                <div class="port-wrap">                      
+                                    <p> <img src="Assets/images/code.jpg" class="med-port-img">Use Node.js to build an app that allows the user to interact with the Twitter, Spotify and OMDB APIs via the command line. </p>
+                                </div>          
+                              </article>
+                            </div>
+
+                          </div>
+                          <div class="tile is-parent">
+                            <article class="tile is-child notification port-item">
+                              <p class="title">Other projects</p>
+                              <p class="subtitle">Aligned with the right tile</p>
+                              <div class="content">
+                                <!-- Content -->
+                              </div>
+                            </article>
+                          </div>
+                        </div>
+                        
+                      </div>
+            </div>
+        </div>
+  </section>
+
+  <script src="Assets/script.js"></script>
+  </body>
+</html>

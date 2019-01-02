@@ -1,0 +1,42 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar {
+    background-color: transparent;
+    
+}
+
+.port {
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.port h1 {
+    margin: 65px;
+    font-size: 30px;
+}
+
+.brand {
+    font-weight: 600;
+    font-size: 20px;
+    color: #232b2b;
+}
+
+#navbartrans {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+body {
+    background-color:#fff;
+
+}
+
+#contact {
+    width: 100%;
+}
+
+
