@@ -36,7 +36,14 @@
             <div class="navbar-item">
                 <div class="field is-grouped">
                 <p class="control">
-                    <a href="">
+                    <a href="portfolio.html" target="blank">
+                    <span class="icon is-medium">
+                        <i class="fa-lg fas fa-code"></i>
+                    </span>
+                    </a>
+                </p>
+                <p class="control">
+                    <a href="https://github.com/LBDCode" target="blank">
                     <span class="icon is-medium">
                         <i class="fab fa-lg fa-github"></i>
                     </span>
@@ -58,44 +65,43 @@
     <div class="modal">
         <div class="modal-background"></div>
         <div class="modal-card">
-            <header class="modal-card-head">
-            <p class="modal-card-title">Drop me a line</p>
-            <button class="delete" aria-label="close"></button>
-            </header>
-            <section class="modal-card-body">
-                <div class="container" id="contact">
-                    <div class="field">
-                        <label class="label">Name</label>
-                        <div class="control">
-                            <input class="input" type="text" placeholder="Your name">
-                        </div>
-                        </div>
-                                
+            <form id="contact-form" action="https://hooks.zapier.com/hooks/catch/4264314/09qelu/" type="POST">
+                <header class="modal-card-head">
+                <p class="modal-card-title">Drop me a line!</p>
+                <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <div class="container">
                         <div class="field">
-                        <label class="label">Email</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input" type="email" placeholder="Email address">
-                            <span class="icon is-small is-left">
-                            <i class="fas fa-envelope"></i>
-                            </span>
-                            <span class="icon is-small is-right">
-                            <i class="fas fa-exclamation-triangle"></i>
-                            </span>
-                        </div>
-                        <!-- <p class="help is-danger">This email is invalid</p> -->
-                        </div>
-                        <div class="field">
-                        <label class="label">Message</label>
-                        <div class="control">
-                            <textarea class="textarea" placeholder="Your message here."></textarea>
-                        </div>
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input class="input" type="text" name="name" id="name" placeholder="Your name">
+                            </div>
+                            </div>
+                                    
+                            <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" name="email" id="email" placeholder="Email address">
+                                <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>                            
+                            </div>
+
+                            <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" name="message" id="message" placeholder="Your message here."></textarea>
+                            </div>
+                        </div>    
                     </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-            <button class="button is-success">Save changes</button>
-            <button class="button" id ="close">Cancel</button>
-            </footer>
+                </section>
+                <footer class="modal-card-foot">
+                <input type="submit" value="Send message" id="form-submit" class="button is-success">
+                <button class="button" id ="close">Cancel</button>
+                </footer>
+            </form>
         </div>
       </div>
 
@@ -105,7 +111,6 @@
             <h1 class="center title">Hi, I'm Libby</h1>
             <h2 class="center subtitle">I'm a full stack web developer based in Raleigh, NC.</h2>
 
-            <a href="portfolio.html" class="center">Cool, but I really just want to see your code.</a>
         </div>
     </div>
   </section>
@@ -116,11 +121,12 @@
                 <h1 class="center">About Me</h1>
                 <div class="center">
                     <figure class="image is-128x128 center">
-                        <img class="is-rounded center" src="https://bulma.io/images/placeholders/128x128.png">
+                        <img class="is-rounded center" src="Assets/images/profile.jpg">
                     </figure>
                 </div>
-                <p class="center">Thanks for stopping by!  I'm currently enrolled in the UNC Coding Bootcamp, honing my skills as a full stack web developer.  On this site, you'll find my both my work for the Bootcamp material (MERN stack, Node.js, Express, C#/ASP.net) as well as personal projects (primarily Python, Flask, and Django).  
-                <br><br> Feel free to poke around, check out my portfolio, or just say hi! </p>
+                <p class="center">Thanks for stopping by!  I'm currently enrolled in the UNC Coding Bootcamp, honing my skills as a full stack web developer.  On this site, you'll find my both my work for the Bootcamp (MERN stack, Node.js, Express, C#/ASP.net) as well as personal projects (primarily Python, with a side of Flask and Django).  
+                <br>When I'm not coding, you can find me climbing, wrangling two oversized dogs, or learning how to make beer. 
+                <br><br>Feel free to poke around, check out my portfolio, or say hi! </p>
             </div>
         </div>
   </section>
@@ -134,10 +140,9 @@
                         <div class="tile is-parent">
                             <article class="tile is-child notification port-item">
                                 <div class="content">
-                                <p class="title">Blurb about work/projects</p>
-                                <p class="subtitle">Blah, blah, blah.  Links to github etc</p>
+                                <p class="title">A quick note..</p>
                                 <div class="content">
-                                    <p>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet nisl at dui posuere vulputate. Mauris enim nunc, tempor et justo non, condimentum feugiat dolor. Nulla pulvinar nunc eu lacus consequat egestas. Aliquam a laoreet justo. Praesent velit odio, ullamcorper ac dolor eu, dictum auctor nibh. In nec nisi eu lectus dignissim porta sed eget diam. Curabitur aliquam erat id suscipit tristique. Maecenas condimentum cursus mollis. Nullam pulvinar sit amet augue a aliquam. Etiam sagittis, nisl vitae luctus mattis, enim nisi ornare arcu, non pulvinar metus nibh in lorem.
                                     </p>
                                 </div>
                                 </div>
@@ -155,7 +160,7 @@
                                         </figure>
                                     </div>
                                     <p class="center">
-                                        A fully responsive, mobile-friendly website with portfolio, contact, and personal information.  This project uses Bulma, JQuery, HTML, and CSS.
+                                        A fully responsive, mobile-friendly website with portfolio, contact, and personal information.  This project uses Bulma and JQuery, as well as Zapier webhooks/email to power the contact form.
                                     </p>
                                 </article>
                             </div>
@@ -182,10 +187,7 @@
                           <div class="tile is-parent">
                             <article class="tile is-child notification port-item">
                               <p class="title">Other projects</p>
-                              <p class="subtitle">Aligned with the right tile</p>
-                              <div class="content">
-                                <!-- Content -->
-                              </div>
+                              <p class="subtitle">You can find a full list of projects over at my <a href="portfolio.html" target="blank">portfolio</a> page, or head over and check out my <a href="https://github.com/LBDCode?tab=repositories" target="blank">GitHub repos.</a></p>
                             </article>
                           </div>
                         </div>
@@ -196,5 +198,9 @@
   </section>
 
   <script src="Assets/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
   </body>
 </html>
+
+

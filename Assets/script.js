@@ -1,4 +1,3 @@
-
 $(".navbar-burger").click(function() {
 
     $(".navbar-burger").toggleClass("is-active");
@@ -7,7 +6,14 @@ $(".navbar-burger").click(function() {
 });
 
 
+function clearForm() {
+    $("#name").val("");
+    $("#email").val("");
+    $("#message").val("");
+}
+
 $("#contact").click(function() {
+    clearForm();
     $(".modal").toggleClass("is-active");
 });
 
@@ -24,4 +30,19 @@ $("#close").click(function() {
 });
 
 
+$('#contact-form').submit(function(event){
+    event.preventDefault();
+    $.ajax({
+        url:'https://hooks.zapier.com/hooks/catch/4264314/09qelu/',
+        type:'post',
+        data:$('#contact-form').serialize(),
+        success:function(){
+          $(".modal").removeClass("is-active");
+        }
+    });
+});
 
+
+
+
+//add porfolio statment
